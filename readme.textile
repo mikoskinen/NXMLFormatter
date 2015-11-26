@@ -17,57 +17,61 @@ NXMLFormatter is available through the NuGet with the package name NXMLFormatter
 h4. Example
 
 h5. Input
-<pre>
-<?xml version="1.0"?>
-<catalog><book id="bk101"><author>Gambardella, Matthew</author>
-<title>XML Developer's Guide</title>
-<genre>Computer</genre><price>44.95</price><publish_date>2000-10-01</publish_date><description>An in-depth look at creating applications with XML.</description>
-</book>
-<book id="bk102">   <author>Ralls, Kim</author>   <title>Midnight Rain</title>
-<genre>Fantasy</genre>
-<price>5.95</price>
-<publish_date>2000-12-16</publish_date>
-<description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description></book>
-<book id="bk103">   <author>Corets, Eva</author>   <title>Maeve Ascendant</title>   <genre>Fantasy</genre>
-   <price>5.95</price>   <publish_date>2000-11-17</publish_date>
-   <description>After the collapse of a nanotechnology society in England, the young survivors lay the 
-   foundation for a new society.</description></book></catalog>
-</pre>
+
+&lt;pre&gt;
+
+&lt;catalog&gt;&lt;book id="bk101"&gt;&lt;author&gt;Gambardella, Matthew&lt;/author&gt;
+&lt;title&gt;XML Developer's Guide&lt;/title&gt;
+&lt;genre&gt;Computer&lt;/genre&gt;&lt;price&gt;44.95&lt;/price&gt;&lt;publish_date&gt;2000-10-01&lt;/publish_date&gt;&lt;description&gt;An in-depth look at creating applications with XML.&lt;/description&gt;
+&lt;/book&gt;
+&lt;book id="bk102"&gt;   &lt;author&gt;Ralls, Kim&lt;/author&gt;   &lt;title&gt;Midnight Rain&lt;/title&gt;
+&lt;genre&gt;Fantasy&lt;/genre&gt;
+&lt;price&gt;5.95&lt;/price&gt;
+&lt;publish_date&gt;2000-12-16&lt;/publish_date&gt;
+&lt;description&gt;A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.&lt;/description&gt;&lt;/book&gt;
+&lt;book id="bk103"&gt;   &lt;author&gt;Corets, Eva&lt;/author&gt;   &lt;title&gt;Maeve Ascendant&lt;/title&gt;   &lt;genre&gt;Fantasy&lt;/genre&gt;
+   &lt;price&gt;5.95&lt;/price&gt;   &lt;publish_date&gt;2000-11-17&lt;/publish_date&gt;
+   &lt;description&gt;After the collapse of a nanotechnology society in England, the young survivors lay the 
+   foundation for a new society.&lt;/description&gt;&lt;/book&gt;&lt;/catalog&gt;
+
+&lt;/pre&gt;
 
 h5. Output
 
-<pre>
-<catalog>
-  <book
-    id="bk101">
-    <author>Gambardella, Matthew</author>
-    <title>XML Developer's Guide</title>
-    <genre>Computer</genre>
-    <price>44.95</price>
-    <publish_date>2000-10-01</publish_date>
-    <description>An in-depth look at creating applications with XML.</description>
-  </book>
-  <book
-    id="bk102">
-    <author>Ralls, Kim</author>
-    <title>Midnight Rain</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
-    <publish_date>2000-12-16</publish_date>
-    <description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description>
-  </book>
-  <book
-    id="bk103">
-    <author>Corets, Eva</author>
-    <title>Maeve Ascendant</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
-    <publish_date>2000-11-17</publish_date>
-    <description>After the collapse of a nanotechnology society in England, the young survivors lay the 
-   foundation for a new society.</description>
-  </book>
-</catalog>
-</pre>
+&lt;pre&gt;
+
+&lt;catalog&gt;
+  &lt;book
+    id="bk101"&gt;
+    &lt;author&gt;Gambardella, Matthew&lt;/author&gt;
+    &lt;title&gt;XML Developer's Guide&lt;/title&gt;
+    &lt;genre&gt;Computer&lt;/genre&gt;
+    &lt;price&gt;44.95&lt;/price&gt;
+    &lt;publish_date&gt;2000-10-01&lt;/publish_date&gt;
+    &lt;description&gt;An in-depth look at creating applications with XML.&lt;/description&gt;
+  &lt;/book&gt;
+  &lt;book
+    id="bk102"&gt;
+    &lt;author&gt;Ralls, Kim&lt;/author&gt;
+    &lt;title&gt;Midnight Rain&lt;/title&gt;
+    &lt;genre&gt;Fantasy&lt;/genre&gt;
+    &lt;price&gt;5.95&lt;/price&gt;
+    &lt;publish_date&gt;2000-12-16&lt;/publish_date&gt;
+    &lt;description&gt;A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.&lt;/description&gt;
+  &lt;/book&gt;
+  &lt;book
+    id="bk103"&gt;
+    &lt;author&gt;Corets, Eva&lt;/author&gt;
+    &lt;title&gt;Maeve Ascendant&lt;/title&gt;
+    &lt;genre&gt;Fantasy&lt;/genre&gt;
+    &lt;price&gt;5.95&lt;/price&gt;
+    &lt;publish_date&gt;2000-11-17&lt;/publish_date&gt;
+    &lt;description&gt;After the collapse of a nanotechnology society in England, the young survivors lay the 
+   foundation for a new society.&lt;/description&gt;
+  &lt;/book&gt;
+&lt;/catalog&gt;
+
+&lt;/pre&gt;
 
 h4. Licenses
 
