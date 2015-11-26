@@ -1,0 +1,74 @@
+h1. NXMLFormatter
+
+h4. Beautify your XML easily. NXMLFormatter is an open-source XML Beautifier written with C#. The DLL is available as a portable class library.
+
+h4. Usage
+
+1. Add reference to NXMLFormatter.dll.
+
+2. var formattedXML = NXMLFormatter.Formatter.Format(originalXML);
+
+Project doesn't have any external references and it uses only the features provided by the .NET Framework.
+
+h4. NuGet
+
+NXMLFormatter is available through the NuGet with the package name NXMLFormatter. Type "install-package NXMLFormatter" to install it.
+
+h4. Example
+
+h5. Input
+<pre>
+<?xml version="1.0"?>
+<catalog><book id="bk101"><author>Gambardella, Matthew</author>
+<title>XML Developer's Guide</title>
+<genre>Computer</genre><price>44.95</price><publish_date>2000-10-01</publish_date><description>An in-depth look at creating applications with XML.</description>
+</book>
+<book id="bk102">   <author>Ralls, Kim</author>   <title>Midnight Rain</title>
+<genre>Fantasy</genre>
+<price>5.95</price>
+<publish_date>2000-12-16</publish_date>
+<description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description></book>
+<book id="bk103">   <author>Corets, Eva</author>   <title>Maeve Ascendant</title>   <genre>Fantasy</genre>
+   <price>5.95</price>   <publish_date>2000-11-17</publish_date>
+   <description>After the collapse of a nanotechnology society in England, the young survivors lay the 
+   foundation for a new society.</description></book></catalog>
+</pre>
+
+h5. Output
+
+<pre>
+<catalog>
+  <book
+    id="bk101">
+    <author>Gambardella, Matthew</author>
+    <title>XML Developer's Guide</title>
+    <genre>Computer</genre>
+    <price>44.95</price>
+    <publish_date>2000-10-01</publish_date>
+    <description>An in-depth look at creating applications with XML.</description>
+  </book>
+  <book
+    id="bk102">
+    <author>Ralls, Kim</author>
+    <title>Midnight Rain</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+    <publish_date>2000-12-16</publish_date>
+    <description>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</description>
+  </book>
+  <book
+    id="bk103">
+    <author>Corets, Eva</author>
+    <title>Maeve Ascendant</title>
+    <genre>Fantasy</genre>
+    <price>5.95</price>
+    <publish_date>2000-11-17</publish_date>
+    <description>After the collapse of a nanotechnology society in England, the young survivors lay the 
+   foundation for a new society.</description>
+  </book>
+</catalog>
+</pre>
+
+h4. Licenses
+
+This software is distributed under the terms of the MIT License (see mit.txt).
