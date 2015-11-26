@@ -18,7 +18,7 @@ h4. Example
 
 h5. Input
 
-&lt;pre&gt;
+<pre><code>
 
 &lt;catalog&gt;&lt;book id="bk101"&gt;&lt;author&gt;Gambardella, Matthew&lt;/author&gt;
 &lt;title&gt;XML Developer's Guide&lt;/title&gt;
@@ -34,11 +34,11 @@ h5. Input
    &lt;description&gt;After the collapse of a nanotechnology society in England, the young survivors lay the 
    foundation for a new society.&lt;/description&gt;&lt;/book&gt;&lt;/catalog&gt;
 
-&lt;/pre&gt;
+</pre></code>
 
 h5. Output
 
-&lt;pre&gt;
+<pre><code>
 
 &lt;catalog&gt;
   &lt;book
@@ -71,7 +71,7 @@ h5. Output
   &lt;/book&gt;
 &lt;/catalog&gt;
 
-&lt;/pre&gt;
+</pre></code>
 
 h4. Licenses
 
