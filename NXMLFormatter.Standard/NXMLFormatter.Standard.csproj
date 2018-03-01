@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>NXMLFormatter</AssemblyName>
+    <RootNamespace>NXMLFormatter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\NXMLFormatter\Formatter.cs" Link="Formatter.cs" />
+  </ItemGroup>
+
+</Project>

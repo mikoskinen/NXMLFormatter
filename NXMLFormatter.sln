@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXMLFormatter", "NXMLFormatter\NXMLFormatter.csproj", "{6BEACF07-7D49-4410-B58D-674D4B42C537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NXMLFormatter.Standard", "NXMLFormatter.Standard\NXMLFormatter.Standard.csproj", "{3B0E6990-3E9C-4049-85B1-997A645F7DDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{6BEACF07-7D49-4410-B58D-674D4B42C537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BEACF07-7D49-4410-B58D-674D4B42C537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BEACF07-7D49-4410-B58D-674D4B42C537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0E6990-3E9C-4049-85B1-997A645F7DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0E6990-3E9C-4049-85B1-997A645F7DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0E6990-3E9C-4049-85B1-997A645F7DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0E6990-3E9C-4049-85B1-997A645F7DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4CE5D98-6C34-4541-AFA0-F2C7EE82C86C}
 	EndGlobalSection
 EndGlobal

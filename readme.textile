@@ -1,6 +1,6 @@
 h1. NXMLFormatter
 
-h4. Beautify your XML easily. NXMLFormatter is an open-source XML Beautifier written with C#. The DLL is available as a portable class library.
+h4. Beautify your XML easily. NXMLFormatter is an open-source XML Beautifier written with C#. The DLL is available as a .NET Standard 1.3 and portable class library.
 
 h4. Usage
 
